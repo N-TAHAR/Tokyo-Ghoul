@@ -1,0 +1,98 @@
+@font-face{
+  font-family: 'Ghoul';
+  src: url('../font/ghoul.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+
+}
+
+/* Page1 */
+
+.page1{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bg1{
+  background-image: url("/img/kaneki.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 30%;
+  border-bottom: 2px solid black;
+
+}
+
+.title{
+  margin-bottom: 130px; 
+  font-family: "Ghoul";
+  font-size: 12em;
+}
+
+/* Page 2 */
+
+.page2{
+  background-image: url("/img/bg1.jpg");
+  background-size: cover;
+  background-position-x: 40px; 
+  border-top: 2px solid black;
+  width: 100%;
+  height: 690px;
+  margin-top: 300px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Ghoul";
+  font-size: 20px;
+}
+
+.quote{
+  margin-left: 25px;
+}
+
+.quote1{
+  margin-right: 70px;
+}
+
+/* Page 3 */
+
+.page3{
+  background-image: url("/img/bg2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 900px;
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quoteToka{
+  background-color: rgba(255,255,255,0.9);
+  font-family: "Ghoul";
+  font-size: 2em;
+  color: black;
+  width: 100%;
+  text-align:center;
+}
